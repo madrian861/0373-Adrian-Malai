@@ -1,3 +1,18 @@
+html{
+font-size: 110;
+}
+
+article :hover{
+    color:white;
+    background-color: rgb(10,15,24);
+}
+section :hover{
+    color:white;
+    background-color: rgb(10,15,24);
+}
+h3{
+font-size: 130;
+}
 body{
 font-family: "Roboto", sans-serif;
 }
@@ -8,4 +23,13 @@ background-color: rgb(84,120,193);
 section{
     background-color: rgba(210,223,251, 0.8);
 color: rgb(73,105,169)
+}
+a:active{
+    color: black
+}
+span{
+    font-weight: bold;
+}
+p{
+    font-style: italic;
 }
